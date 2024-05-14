@@ -18,8 +18,8 @@ function App() {
         {/* <Header /> */}
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/upload' element={<MenuPage />} />
-          <Route path='/sign' element={<ShopPage />} />
+          <Route path='/menu' element={<MenuPage />} />
+          <Route path='/shop' element={<ShopPage />} />
           <Route path='/success' element={<Success />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
