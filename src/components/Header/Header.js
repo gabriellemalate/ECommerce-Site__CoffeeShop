@@ -13,15 +13,15 @@ function Header() {
                     <Link to="/" className="header__logo-head">nitro coffee</Link>
                 </a>
 
-                <ul className="header-nav" style="list-style-type: none">
+                <ul className="header-nav">
                     <li className="header-nav__nav-item">
                         <Link to="/"> ABOUT </Link>
                     </li>
                     <li className="header-nav__nav-item">
-                        <Link> MENU </Link>
+                        <Link to="/menu"> MENU </Link>
                     </li>
                     <li className="header-nav__nav-item header-nav__nav-item--active">
-                        <Link>
+                        <Link to="/shop">
                             SHOP NOW
                         </Link>
                     </li>
