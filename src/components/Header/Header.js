@@ -12,7 +12,13 @@ function Header() {
                 </Link>
 
                 <div className='header-right'>
-                    
+                    <div className='header-right__search'>
+                        <form className="header-form" action="" method="">
+                            <textarea className="header-form__box" type="search" placeholder="Search" />
+                        </form>
+                        {/* <Link to="">
+                        </Link> */}
+                    </div>
                     {/* <Link className="header-right__button" to="">
                         <div className="header-right__button-eq">
                         </div>
