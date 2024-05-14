@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import LandingPage from './pages/LandingPage/LandingPage';
 import MenuPage from "./pages/MenuPage/MenuPage";
 import ShopPage from "./pages/ShopePage/ShopePage";
-// import Success from './components/Success/Success';
+import Success from './components/Success/Success';
 import NotFound from './pages/NotFound/Notfound';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path='/' element={<LandingPage />} />
           <Route path='/upload' element={<MenuPage />} />
           <Route path='/sign' element={<ShopPage />} />
-          {/* <Route path='/success' element={<Success />} /> */}
+          <Route path='/success' element={<Success />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
