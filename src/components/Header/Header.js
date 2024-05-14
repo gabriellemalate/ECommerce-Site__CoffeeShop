@@ -6,27 +6,26 @@ function Header() {
 
     return (
         <header className='header'>
-            <div className='header_eq'>
-                <Link to="/" className="header__logo">
-                    NITRO COFFEE
-                </Link>
+            <nav class="top-nav">
+                <a class="nav-logo" href="#back-to-top" style="text-decoration: none">
+                    <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Logo Coffee Shop" />
+                    <h1>nitro</h1>
+                </a>
 
-                <div className='header-right'>
-                    <div className='header-right__search'>
-                        <form className="header-form" action="" method="">
-                            <textarea className="header-form__box" type="search" placeholder="Search" />
-                        </form>
-                        {/* <Link to="">
-                        </Link> */}
-                    </div>
-                    {/* <Link className="header-right__button" to="">
-                        <div className="header-right__button-eq">
-                        </div>
-                    </Link> */}
-                    {/* <Link to="">
-                    </Link> */}
-                </div>
-            </div>
+                <ul class="nav-list" style="list-style-type: none">
+                    <li class="nav-list__nav-item">
+                        <a href="./index.html" style="text-decoration: none"> ABOUT </a>
+                    </li>
+                    <li class="nav-list__nav-item">
+                        <a href="./pages/menu.html" style="text-decoration: none"> MENU </a>
+                    </li>
+                    <li class="nav-list__nav-item nav-list__nav-item--active">
+                        <a href="./pages/menu.html" style="text-decoration: none">
+                            SHOP NOW
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
     );
 }
