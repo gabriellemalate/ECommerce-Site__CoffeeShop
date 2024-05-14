@@ -8,7 +8,7 @@ import LandingPage from './pages/LandingPage/LandingPage';
 import MenuPage from "./pages/MenuPage/MenuPage";
 import ShopPage from "./pages/ShopePage/ShopePage";
 // import Success from './components/Success/Success';
-// import NotFound from './components/NotFound/Notfound';
+import NotFound from './pages/NotFound/Notfound';
 
 function App() {
 
