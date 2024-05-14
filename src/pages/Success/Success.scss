@@ -1,0 +1,29 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.success {
+    @include column;
+    margin-top: 2rem;
+    &-head {
+        background-color: rgb(255, 255, 255, .5);
+        border-bottom: .2rem solid darkblue;
+        padding-bottom: .5rem;
+        @include tablet {
+            @include page-head--tablet;
+        }
+    }
+    
+    &-details {
+        color: darkblue;
+        width: 80%;
+        text-align: center;
+        background-color: rgb(255, 255, 255, .5);
+        margin-top: 4rem;
+        @include tablet {
+            font-size: 1.5rem;
+        }
+        &__redirect {
+            font-weight: 700;
+        }
+    }
+}
