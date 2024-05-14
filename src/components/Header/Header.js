@@ -1,28 +1,29 @@
 import React from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
+import Beans from "../../assets/logos/coffee-beans-logo-and-footer.svg";
 
 function Header() {
 
     return (
         <header className='header'>
-            <nav class="top-nav">
-                <a class="nav-logo" href="#back-to-top" style="text-decoration: none">
-                    <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="Logo Coffee Shop" />
-                    <h1>nitro</h1>
+            <nav className="header__logo">
+                <a className="header__logo-link" href="#back-to-top">
+                    <img className="header__logo-img" src={Beans} alt="Logo CoffeeBeans" />
+                    <Link to="/" className="header__logo-head">nitro coffee</Link>
                 </a>
 
-                <ul class="nav-list" style="list-style-type: none">
-                    <li class="nav-list__nav-item">
-                        <a href="./index.html" style="text-decoration: none"> ABOUT </a>
+                <ul className="header-nav" style="list-style-type: none">
+                    <li className="header-nav__nav-item">
+                        <Link to="/"> ABOUT </Link>
                     </li>
-                    <li class="nav-list__nav-item">
-                        <a href="./pages/menu.html" style="text-decoration: none"> MENU </a>
+                    <li className="header-nav__nav-item">
+                        <Link> MENU </Link>
                     </li>
-                    <li class="nav-list__nav-item nav-list__nav-item--active">
-                        <a href="./pages/menu.html" style="text-decoration: none">
+                    <li className="header-nav__nav-item header-nav__nav-item--active">
+                        <Link>
                             SHOP NOW
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
