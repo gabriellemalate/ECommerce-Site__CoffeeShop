@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import coffeebeans from "../../assets/images/coffeebeans.png"
 import brew from "../../assets/images/inhousebrew.png"
+import coldbrew from "../../assets/images/coldbrew.png"
 
 function ProductCarousel() {
 
@@ -25,7 +26,7 @@ function ProductCarousel() {
                         </div>
                     </div>
                     <div className="product-container__product" id="cold-brew">
-                        <img src="./assets/images/coldbrew.png" className="product-container__product-img"/>
+                        <img src={brew} alt="cup of cold brew" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
                                 <h3 className="product-details__title"
@@ -37,7 +38,7 @@ function ProductCarousel() {
                     </div>
 
                     <div className="product-container__product" id="inhouse-brew">
-                        <img src={brew} alt="in-house brew" className="product-container__product-img"/>
+                        <img src={brew} alt="cup of in-house brew" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
                                 <h3 className="product-details__title"
