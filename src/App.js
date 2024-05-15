@@ -9,13 +9,14 @@ import MenuPage from "./pages/MenuPage/MenuPage";
 import ShopPage from "./pages/ShopPage/ShopPage";
 import Success from './pages/Success/Success';
 import NotFound from './pages/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <Header/>
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/menu' element={<MenuPage />} />
@@ -23,6 +24,7 @@ function App() {
           <Route path='/success' element={<Success />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
