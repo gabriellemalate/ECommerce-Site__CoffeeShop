@@ -1,5 +1,5 @@
-@use "../../styles/partials/mixins" as *;
-@use "../../styles/partials/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
 
 .success {
     @include column;
@@ -9,7 +9,7 @@
         border-bottom: .2rem solid darkblue;
         padding-bottom: .5rem;
         @include tablet {
-            @include page-head--tablet;
+
         }
     }
     

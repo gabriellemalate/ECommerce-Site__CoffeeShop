@@ -3,19 +3,19 @@ import axios from "axios";
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 // import './App.scss';
 
-// import Header from './components/Header/Header';
+import Header from './components/Header/Header';
 import LandingPage from './pages/LandingPage/LandingPage';
 import MenuPage from "./pages/MenuPage/MenuPage";
-import ShopPage from "./pages/ShopePage/ShopePage";
-import Success from './components/Success/Success';
-import NotFound from './pages/NotFound/Notfound';
+import ShopPage from "./pages/ShopPage/ShopPage";
+import Success from './pages/Success/Success';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        {/* <Header /> */}
+        <Header />
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/menu' element={<MenuPage />} />
