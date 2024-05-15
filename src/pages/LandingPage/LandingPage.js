@@ -2,6 +2,7 @@ import "./LandingPage.scss"
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Beans from "../../assets/images/coffeebeans-hero.png"
 
 function LandingPage() {
 
@@ -16,13 +17,13 @@ function LandingPage() {
                         of berries from certain Coffee species.
                     </p>
 
-                    <a href="./pages/menu.html" className="a__button">
+                    <Link to="/shop" className="a__button">
                         <div id="button-border"></div>
                         <button className="hero-items__shop-button">SHOP NOW</button>
-                    </a>
+                    </Link>
                 </article>
                 <div className="hero-items__hero-image">
-                    <img src="./assets/images/coffeebeans-hero.png" />
+                    <img src={Beans}/>
                 </div>
             </main>
         </>
