@@ -1,2 +1,36 @@
-@use "../../styles/partials/mixins" as *;
-@use "../../styles/partials/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.footer {
+    background-color: #fff0ed;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    &-head {
+        font-weight: lighter;
+    }
+
+    &__address {
+        padding-right: 4%;
+    }
+
+    &__hours {
+        padding-right: 6%;
+    }
+    
+    &__social {
+        padding-right: 14%;
+    }
+}
+
+.social img {
+    transition: transform 0.2s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
