@@ -2,8 +2,7 @@ import "./LandingPage.scss"
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Hero from "../../assets/images/coffeebeans-hero.png"
-import Header from "../../components/Header/Header"
+import Hero from "../../assets/images/coffeebeans-hero.png";
 import ProductCarousel from "../../components/ProductCarousel/ProductCarousel";
 
 function LandingPage() {
@@ -11,7 +10,6 @@ function LandingPage() {
 
     return (
         <>
-            <Header />
             <main className="hero" id="back-to-top">
                 <article className="hero-items">
                     <h2 className="hero-items__head">Nitro Coffee</h2>
