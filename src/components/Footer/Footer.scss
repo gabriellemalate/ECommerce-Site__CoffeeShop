@@ -24,13 +24,12 @@
     
     &__social {
         padding-right: 14%;
+        &-img {
+            transition: transform 0.2s;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     }
 }
 
-.social img {
-    transition: transform 0.2s;
-}
-
-.social img:hover {
-    transform: scale(1.2);
-}
