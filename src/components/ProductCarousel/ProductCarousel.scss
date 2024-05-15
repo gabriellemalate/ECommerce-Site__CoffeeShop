@@ -1,2 +1,143 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
+
+.product {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3%;
+
+    &-head {
+        margin: 0;
+        font-weight: lighter;
+        font-size: 240%;
+        padding: 3%;
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+
+        &__product {
+            width: 20%;
+            padding-bottom: 0;
+            padding-top: 2%;
+            background-color: #FFF;
+            box-shadow: 1px 3px 3px 2px #d9d7d7;
+            border-radius: 2.5%;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: flex-end;
+        
+            height: 45vh;
+
+            &-img {
+                width: 10vh;
+            }
+        }
+    }
+}
+
+
+
+.product-container__product h3 {
+    font-weight: lighter;
+    margin: 1%;
+    text-wrap: nowrap;
+    margin-top: 1%;
+    font-size: 125%;
+}
+
+.product-container__product--style {
+    margin: 0;
+    margin-top: 10%;
+    background-color: #FFF0ED;
+    width: 80%;
+    border-radius: 2.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    ;
+}
+
+.product-details__detail {
+    font-size: 70%;
+    color: #909090;
+    margin: 0;
+}
+
+.product__price {
+    color: #5BACC3;
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.product-container__view-button {
+    border: 0;
+    background-color: #5BACC3;
+    color: #FFF;
+    white-space: nowrap;
+    margin: 1%;
+    font-size: 90%;
+    padding: 1rem;
+    width: 9rem;
+}
+
+#button-border {
+    border: 2px solid #393939;
+    width: 8.8rem;
+    height: 2.9rem;
+    position: relative;
+    right: .4rem;
+    top: 2.8rem;
+
+}
+
+#view-button-border {
+    border: 2px solid #393939;
+    width: 8.8rem;
+    height: 3rem;
+    position: absolute;
+    margin-right: .6rem;
+    margin-bottom: .8rem;
+}
+
+
+#view-button-border:active {
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+    height: 2.9rem;
+}
+
+#button-border:active {
+    right: 0;
+    top: 3rem;
+}
+
+
+.our-products a {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}

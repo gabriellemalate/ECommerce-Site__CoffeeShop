@@ -17,7 +17,8 @@ function ProductCarousel() {
                         <img src={coffeebeans} alt="bag of coffeebeans product" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
-                                <h3>Coffee Beans</h3>
+                                <h3 className="product-details__title"
+                                >Coffee Beans</h3>
                                 <p className="product-details__detail">pack of 3</p>
                             </div>
                             <p className="product__price">$19</p>
@@ -27,7 +28,8 @@ function ProductCarousel() {
                         <img src="./assets/images/coldbrew.png" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
-                                <h3>Cold Brew</h3>
+                                <h3 className="product-details__title"
+                                >Cold Brew</h3>
                                 <p className="product-details__detail">1 can</p>
                             </div>
                             <p className="product__price">$5</p>
@@ -38,7 +40,8 @@ function ProductCarousel() {
                         <img src={brew} alt="in-house brew" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
-                                <h3>In-house Brew</h3>
+                                <h3 className="product-details__title"
+                                >In-house Brew</h3>
                                 <p className="product-details__detail">1 cup</p>
                             </div>
                             <p className="product__price">$3</p>
