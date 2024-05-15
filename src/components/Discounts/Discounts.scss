@@ -1,0 +1,30 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.discounts {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.discounts h2 {
+    font-weight: lighter;
+    background-color: #393939;
+    color: #FFF;
+    width: 90%;
+    padding: 2%;
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: #393939;
+    }
+
+    50% {
+        background-color: #5BACC3;
+    }
+
+    100% {
+        background-color: #393939;
+    }
+}
