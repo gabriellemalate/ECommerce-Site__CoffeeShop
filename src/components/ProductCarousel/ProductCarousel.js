@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import coffeebeans from "../../assets/images/coffeebeans.png"
+import brew from "../../assets/images/inhousebrew.png"
 
 function ProductCarousel() {
 
@@ -34,7 +35,7 @@ function ProductCarousel() {
                     </div>
 
                     <div className="product-container__product" id="inhouse-brew">
-                        <img src="./assets/images/inhousebrew.png" />
+                        <img src={brew} />
                         <div className="product-container__product--style">
                             <div className="product-details">
                                 <h3>In-house Brew</h3>
