@@ -31,5 +31,14 @@
             }
         }
     }
+
+    &__par {
+        &--bottom {
+            margin-top: 0
+        }
+        &--top {
+            margin-bottom: 0;
+        }
+    }
 }
 
