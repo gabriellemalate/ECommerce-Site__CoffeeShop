@@ -50,7 +50,7 @@ function ProductCarousel() {
                     </div>
                 </div>
 
-                <Link to="/menu" className="prouct-link">
+                <Link to="/menu" className="product-link">
                     <div id="view-button-border"></div>
                     <button className="product-container__view-button">VIEW ALL</button>
                 </Link>
