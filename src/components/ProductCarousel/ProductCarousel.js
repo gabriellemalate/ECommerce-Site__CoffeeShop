@@ -26,7 +26,7 @@ function ProductCarousel() {
                         </div>
                     </div>
                     <div className="product-container__product" id="cold-brew">
-                        <img src={brew} alt="cup of cold brew" className="product-container__product-img"/>
+                        <img src={coldbrew} alt="cup of cold brew" className="product-container__product-img"/>
                         <div className="product-container__product--style">
                             <div className="product-details">
                                 <h3 className="product-details__title"
