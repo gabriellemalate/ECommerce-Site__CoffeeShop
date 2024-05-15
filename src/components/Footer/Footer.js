@@ -1,5 +1,8 @@
-import "./Footer.scss"
+import "./Footer.scss";
 import React from "react";
+import insta from "../../assets/logos/Instagram-Icon.svg";
+import yelp from "../../assets/logos/Yelp-Icon.svg";
+import fb from "../../assets/logos/Facebook-Icon.svg";
 
 function Footer() {
 
@@ -29,13 +32,13 @@ function Footer() {
                     <h3 className="footer-head">Social</h3>
                     <div className="social_socialList">
                         <a href="https://facebook.com" title="Facebook">
-                            <img src="./assets/logos/Facebook-Icon.svg" className="footer__social-img"/>
+                            <img src={fb} className="footer__social-img"/>
                         </a>
                         <a href="https://yelp.com" title="Yelp">
-                            <img src="./assets/logos/Yelp-Icon.svg" className="footer__social-img"/>
+                            <img src={yelp} className="footer__social-img"/>
                         </a>
                         <a href="https://instagram.com" title="Instagram">
-                            <img src="./assets/logos/Instagram-Icon.svg" className="footer__social-img"/>
+                            <img src={insta} className="footer__social-img"/>
                         </a>
                     </div>
                 </div>
