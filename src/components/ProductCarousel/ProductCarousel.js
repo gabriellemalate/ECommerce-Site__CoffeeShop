@@ -2,14 +2,15 @@ import "./ProductCarousel.scss"
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import coffeebeans from "../../assets/images/coffeebeans.png"
 
 function ProductCarousel() {
 
 
     return (
         <>
-            <section className="our-products">
-                <h2>Our Products</h2>
+            <section className="product">
+                <h2 className="product-head">Our Products</h2>
                 <div className="product-container">
                     <div className="product-container__product" id="coffee-beans">
                         <img src="./assets/images/coffeebeans.png" />
