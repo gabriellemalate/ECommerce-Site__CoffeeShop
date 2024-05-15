@@ -1,2 +1,81 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+/* section 3 */
+.were-different {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.were-different-text {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-top: 5%;
+}
+
+
+.were-different-text h2 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 240%;
+    padding: 3%;
+    padding-left: 0;
+    align-self: flex-start;
+}
+
+.were-different-text__image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.were-different-text__image-row img {
+    width: 10%;
+}
+
+.were-different__button {
+    padding: 1rem;
+    width: 9rem;
+    ;
+    border: 0;
+    background-color: #5BACC3;
+    color: #FFF;
+    font-size: 90%;
+}
+
+.were-different-can {
+    background-image: url("../assets/images/coldbrewbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.can-box {
+    position: relative;
+    width: 14.5rem;
+    height: 14.5rem;
+    border: 4px solid #5BACC3;
+    left: -1rem;
+    top: 15rem;
+}
+
+.tilted-can {
+    width: 40%;
+    transition: rotate 50s;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+}
+
+.tilted-can:hover {
+    rotate: 9000deg;
+}
