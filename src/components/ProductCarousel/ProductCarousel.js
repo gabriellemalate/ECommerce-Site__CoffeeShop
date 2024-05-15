@@ -13,7 +13,7 @@ function ProductCarousel() {
                 <h2 className="product-head">Our Products</h2>
                 <div className="product-container">
                     <div className="product-container__product" id="coffee-beans">
-                        <img src="./assets/images/coffeebeans.png" />
+                        <img src={coffeebeans} alt="bag of coffeebeans product" />
                         <div className="product-container__product--style">
                             <div className="product-details">
                                 <h3>Coffee Beans</h3>
