@@ -8,6 +8,18 @@ function MenuPage() {
 
     return (
         <>
+
+            <section class="hero-header">
+                <center>
+                    <div class="header__big-container">
+                        <div class="header__container">MENU</div>
+                        <center>
+                            <h2>.</h2>
+                        </center>
+                    </div>
+                </center>
+            </section>
+
             <nav className="menu-nav" id="menu-nav">
                 <ul className="menu-nav__menu-nav-list">
                     <div className="vertical-line"></div>
