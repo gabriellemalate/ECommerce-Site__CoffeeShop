@@ -5,6 +5,7 @@ import axios from "axios";
 import plant from "../../assets/images/planting.svg";
 import bean from "../../assets/images/coffee-beans.svg";
 import cup from "../../assets/images/coffee-cup.svg";
+import can from "../../assets/images/tiltedcan.png";
 
 
 function About() {
@@ -32,7 +33,7 @@ function About() {
 
                 <article className="right-side">
                     <div className="can-box">
-                        <img className="tilted-can" src="./assets/images/tiltedcan.png" />
+                        <img className="tilted-can" src={can} />
                     </div>
                     <div className="about-can"></div>
                 </article>
