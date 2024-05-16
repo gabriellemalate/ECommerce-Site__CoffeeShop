@@ -15,7 +15,7 @@ function About() {
         <>
             <section className="about">
                 <div className="about-text">
-                    <h2>We're Different</h2>
+                    <h2 className="about-text__head">We're Different</h2>
                     <p>
                         We grow and roast our own beans. Every bean, every cup, every step of
                         the way. We strive for excellence.

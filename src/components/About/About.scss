@@ -14,6 +14,15 @@
         width: 20rem;
         margin-top: 5%;
 
+        &__head {
+            margin: 0;
+            font-weight: lighter;
+            font-size: 240%;
+            padding: 3%;
+            padding-left: 0;
+            align-self: flex-start;
+        }
+
         &__images {
             display: flex;
             flex-direction: row;
@@ -25,41 +34,29 @@
             }
         }
     }
-}
 
+    &__button {
+        padding: 1rem;
+        width: 9rem;
+        ;
+        border: 0;
+        background-color: #5BACC3;
+        color: #FFF;
+        font-size: 90%;
+    }
 
-
-
-.about-text h2 {
-    margin: 0;
-    font-weight: lighter;
-    font-size: 240%;
-    padding: 3%;
-    padding-left: 0;
-    align-self: flex-start;
-}
-
-.about__button {
-    padding: 1rem;
-    width: 9rem;
-    ;
-    border: 0;
-    background-color: #5BACC3;
-    color: #FFF;
-    font-size: 90%;
-}
-
-.about-can {
-    // background-image: url("../assets/images/coldbrewbackground.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 15rem;
-    height: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3%;
-    margin-top: 5%;
+    &-can {
+        // background-image: url("../assets/images/coldbrewbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        margin-top: 5%;
+    }
 }
 
 .can-box {
