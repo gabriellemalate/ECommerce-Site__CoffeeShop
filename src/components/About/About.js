@@ -31,9 +31,9 @@ function About() {
                     </a>
                 </div>
 
-                <article className="right-side">
-                    <div className="can-box">
-                        <img className="tilted-can" src={can} alt="can of brew"/>
+                <article className="about__box">
+                    <div className="about__box-can">
+                        <img className="about__box-can-img" src={can} alt="can of brew"/>
                     </div>
                     <div className="about-can"></div>
                 </article>
