@@ -7,7 +7,7 @@ function Discounts() {
 
     return (
         <>
-            <article class="discounts">
+            <article className="discounts">
                 <center>
                     <h2>
                         Get 20% off your first order with code:
