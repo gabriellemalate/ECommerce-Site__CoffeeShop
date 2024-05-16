@@ -21,17 +21,17 @@ function MenuPage() {
             </section>
 
             <nav className="menu-nav" id="menu-nav">
-                <ul className="menu-nav__menu-nav-list">
+                <ul className="menu-nav__list">
                     <div className="vertical-line"></div>
-                    <li className="menu-nav-list__menu-selection">
+                    <li className="menu-nav__list-item">
                         <a href="#menu-nav"> HOT DRINKS </a>
                     </li>
                     <div className="vertical-line"></div>
-                    <li className="menu-nav-list__menu-selection">
+                    <li className="menu-nav__list-item">
                         <a href="#coldDrinks"> COLD DRINKS </a>
                     </li>
                     <div className="vertical-line"></div>
-                    <li className="menu-nav-list__menu-selection">
+                    <li className="menu-nav__list-item">
                         <a href="#pastries"> PASTRIES </a>
                     </li>
                 </ul>
