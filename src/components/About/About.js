@@ -2,6 +2,10 @@ import "./About.scss"
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import plant from "../../assets/images/planting.svg";
+import bean from "../../assets/images/coffee-beans.svg";
+import cup from "../../assets/images/coffee-cup.svg";
+
 
 function About() {
 
