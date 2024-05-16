@@ -20,10 +20,10 @@ function About() {
                         We grow and roast our own beans. Every bean, every cup, every step of
                         the way. We strive for excellence.
                     </p>
-                    <div className="about-text__image-row">
-                        <img src={plant} alt="seedling plants"/>
-                        <img src={bean} alt="coffeebeans icons "/>
-                        <img src={cup} alt="cup of hot drink icon"/>
+                    <div className="about-text__images">
+                        <img src={plant} alt="seedling plants" className="about-text__images-img"/>
+                        <img src={bean} alt="coffeebeans icons" className="about-text__images-img"/>
+                        <img src={cup} alt="cup of hot drink icon" className="about-text__images-img"/>
                     </div>
                     <a className="a__button" href="#back-to-top">
                         <div id="button-border"></div>

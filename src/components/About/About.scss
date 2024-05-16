@@ -13,6 +13,17 @@
         flex-direction: column;
         width: 20rem;
         margin-top: 5%;
+
+        &__images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 5%;
+        
+            &-img {
+                width: 10%;
+            }
+        }
     }
 }
 
@@ -26,17 +37,6 @@
     padding: 3%;
     padding-left: 0;
     align-self: flex-start;
-}
-
-.about-text__image-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 5%;
-}
-
-.about-text__image-row img {
-    width: 10%;
 }
 
 .about__button {
