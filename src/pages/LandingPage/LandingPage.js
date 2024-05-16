@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import Hero from "../../assets/images/coffeebeans-hero.png";
 import ProductCarousel from "../../components/ProductCarousel/ProductCarousel";
+import About from "../../components/About/About";
+import Discounts from "../../components/Discounts/Discounts";
 
 function LandingPage() {
 
