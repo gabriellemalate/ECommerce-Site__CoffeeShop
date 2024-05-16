@@ -1,2 +1,88 @@
 @use '../../styles/variables' as *;
 @use '../../styles/mixins' as *;
+
+.menu-nav{
+    background-color: #393939;
+    color: #fff;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu-nav__menu-nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-nav__menu-nav-list li {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.menu-nav-list__menu-selection:hover {
+    cursor: pointer;
+    color: #83d0e6;
+}
+
+/*menu*/
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories h2 {
+    margin-top: 0;
+    font-weight: 350;
+    font-size: 260%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+.categories h3 {
+    font-weight: lighter;
+    font-size: 170%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.categories__category  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category--hot, .category--food {
+    background-color: #FFF0ED;
+}
+.category--cold {
+    background-color: #F7F7F7;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item__item-par {
+    text-align: center;
+    width: 40%;
+    margin-bottom: 0;
+    margin-top: 1%;
+    font-size: 90%;
+    font-style: italic;
+}
+.menu-item__menu-price {
+    margin-bottom: 0;
+    color: #5BACC3;
+    margin-top: 0;
+    padding-bottom: 2%;
+    font-style: normal;
+}
+
+.vertical-line {
+    border-left: 3px solid #5bacc3;
+    height: 30px;
+}
