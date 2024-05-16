@@ -52,6 +52,11 @@ a {
         margin-bottom: 3%;
     }
 
+    &-line {
+        border-left: 3px solid #5bacc3;
+        height: 30px;
+    }
+
     &__category {
         display: flex;
         flex-direction: column;
@@ -125,9 +130,4 @@ a {
 }
 .category--cold {
     background-color: #f7f7f7;
-}
-
-.vertical-line {
-    border-left: 3px solid #5bacc3;
-    height: 30px;
 }

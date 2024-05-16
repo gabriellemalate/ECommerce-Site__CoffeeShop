@@ -22,15 +22,15 @@ function MenuPage() {
 
             <nav className="menu-nav" id="menu-nav">
                 <ul className="menu-nav__list">
-                    <div className="vertical-line"></div>
+                    <div className="menu-line"></div>
                     <li className="menu-nav__list-item">
                         <a href="#menu-nav"> HOT DRINKS </a>
                     </li>
-                    <div className="vertical-line"></div>
+                    <div className="menu-line"></div>
                     <li className="menu-nav__list-item">
                         <a href="#coldDrinks"> COLD DRINKS </a>
                     </li>
-                    <div className="vertical-line"></div>
+                    <div className="menu-line"></div>
                     <li className="menu-nav__list-item">
                         <a href="#pastries"> PASTRIES </a>
                     </li>
