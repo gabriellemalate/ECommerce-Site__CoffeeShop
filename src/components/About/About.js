@@ -21,9 +21,9 @@ function About() {
                         the way. We strive for excellence.
                     </p>
                     <div className="about-text__image-row">
-                        <img src={plant} />
-                        <img src={bean} />
-                        <img src={cup} />
+                        <img src={plant} alt="seedling plants"/>
+                        <img src={bean} alt="coffeebeans icons "/>
+                        <img src={cup} alt="cup of hot drink icon"/>
                     </div>
                     <a className="a__button" href="#back-to-top">
                         <div id="button-border"></div>
@@ -33,7 +33,7 @@ function About() {
 
                 <article className="right-side">
                     <div className="can-box">
-                        <img className="tilted-can" src={can} />
+                        <img className="tilted-can" src={can} alt="can of brew"/>
                     </div>
                     <div className="about-can"></div>
                 </article>
