@@ -20,9 +20,9 @@ function About() {
                         the way. We strive for excellence.
                     </p>
                     <div className="about-text__image-row">
-                        <img src="./assets/images/planting.svg" />
-                        <img src="./assets/images/coffee-beans.svg" />
-                        <img src="./assets/images/coffee-cup.svg" />
+                        <img src={plant} />
+                        <img src={bean} />
+                        <img src={cup} />
                     </div>
                     <a className="a__button" href="#back-to-top">
                         <div id="button-border"></div>
