@@ -44,6 +44,46 @@ a {
     flex-direction: column;
     align-items: center;
 
+    &-title {
+        margin-top: 0;
+        font-weight: 350;
+        font-size: 260%;
+        padding-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    &__category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__par {
+            text-align: center;
+            width: 40%;
+            margin-bottom: 0;
+            margin-top: 1%;
+            font-size: 90%;
+            font-style: italic;
+        }
+
+        &__price {
+            margin-bottom: 0;
+            color: #5bacc3;
+            margin-top: 0;
+            padding-bottom: 2%;
+            font-style: normal;
+        }
+    }
+
     &-nav {
         background-color: #393939;
         color: #fff;
@@ -67,60 +107,24 @@ a {
                     cursor: pointer;
                     color: #83d0e6;
                 }
+
+                &__name {
+                    font-weight: lighter;
+                    font-size: 170%;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
             }
         }
     }
 }
 
-/*menu*/
-
-.categories h2 {
-    margin-top: 0;
-    font-weight: 350;
-    font-size: 260%;
-    padding-top: 2%;
-    margin-bottom: 3%;
-}
-.categories h3 {
-    font-weight: lighter;
-    font-size: 170%;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.categories__category {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 .category--hot,
 .category--food {
     background-color: #fff0ed;
 }
 .category--cold {
     background-color: #f7f7f7;
-}
-.menu-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.menu-item__item-par {
-    text-align: center;
-    width: 40%;
-    margin-bottom: 0;
-    margin-top: 1%;
-    font-size: 90%;
-    font-style: italic;
-}
-.menu-item__menu-price {
-    margin-bottom: 0;
-    color: #5bacc3;
-    margin-top: 0;
-    padding-bottom: 2%;
-    font-style: normal;
 }
 
 .vertical-line {
