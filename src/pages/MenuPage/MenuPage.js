@@ -38,7 +38,7 @@ function MenuPage() {
             </nav>
 
             <section className="menu">
-                <article className="menu__category category--hot">
+                <article className="menu__category menu__category--hot">
                     <h2 className="menu-title">Hot Drinks</h2>
                     <article className="hot__hot-items">
                         <article className="menu-item">
@@ -64,7 +64,7 @@ function MenuPage() {
                     </article>
                 </article>
 
-                <article className="menu__category category--cold" id="coldDrinks">
+                <article className="menu__category menu__category--cold" id="coldDrinks">
                     <h2>Cold Drinks</h2>
                     <article className="cold__coldItems">
                         <article className="menu-item">
@@ -89,7 +89,7 @@ function MenuPage() {
                     </article>
                 </article>
 
-                <article className="menu__category category--food" id="pastries">
+                <article className="menu__category menu__category--food" id="pastries">
                     <h2>Pastries</h2>
                     <article className="food__foodItems">
                         <article className="menu-item">

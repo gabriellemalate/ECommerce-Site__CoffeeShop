@@ -63,6 +63,15 @@ a {
         align-items: center;
         justify-content: center;
         width: 100%;
+
+        &--hot,
+        &--food {
+            background-color: #fff0ed;
+        }
+
+        &--cold {
+            background-color: #f7f7f7;
+        }
     }
 
     &-item {
@@ -122,12 +131,4 @@ a {
             }
         }
     }
-}
-
-.category--hot,
-.category--food {
-    background-color: #fff0ed;
-}
-.category--cold {
-    background-color: #f7f7f7;
 }
