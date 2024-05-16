@@ -9,40 +9,40 @@ a {
     text-decoration: none;
 }
 
-.hero-header {
-    margin: 0;
-    padding-top: 3rem;
-    // background-image: url("../assets/images/coffee-circle.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    padding-bottom: 2rem;
-}
-
-.header__container {
-    border: 2px solid #5bacc3;
-    width: 10rem;
-    height: 2.9rem;
-    position: relative;
-    text-align: center;
-    top: 6.5rem;
-    right: 0.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 2rem;
-    color: #ffffff;
-}
-
-.header__big-container {
-    width: 20rem;
-    height: 20rem;
-}
-
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &-hero {
+        margin: 0;
+        padding-top: 3rem;
+        // background-image: url("../assets/images/coffee-circle.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding-bottom: 2rem;
+
+        &__head {
+            border: 2px solid #5bacc3;
+            width: 10rem;
+            height: 2.9rem;
+            position: relative;
+            text-align: center;
+            top: 6.5rem;
+            right: 0.5rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        &__container {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
 
     &-title {
         margin-top: 0;
