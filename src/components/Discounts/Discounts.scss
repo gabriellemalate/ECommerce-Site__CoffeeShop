@@ -4,15 +4,15 @@
 .discounts {
     padding-top: 4%;
     padding-bottom: 4%;
-}
 
-.discounts h2 {
-    font-weight: lighter;
-    background-color: #393939;
-    color: #FFF;
-    width: 90%;
-    padding: 2%;
-    animation: color-change 3s infinite;
+    &__head {
+        font-weight: lighter;
+        background-color: #393939;
+        color: #FFF;
+        width: 90%;
+        padding: 2%;
+        animation: color-change 3s infinite;
+    }
 }
 
 @keyframes color-change {

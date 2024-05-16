@@ -9,7 +9,7 @@ function Discounts() {
         <>
             <article className="discounts">
                 <center>
-                    <h2>
+                    <h2 className="discounts__head">
                         Get 20% off your first order with code:
                         <strong>FirstNitro</strong>
                     </h2>
