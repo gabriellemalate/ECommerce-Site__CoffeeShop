@@ -30,6 +30,8 @@ function LandingPage() {
                 </div>
             </main>
             <ProductCarousel />
+            <About/>
+            <Discounts/>
         </>
     );
 }

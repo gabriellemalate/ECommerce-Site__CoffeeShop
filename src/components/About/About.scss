@@ -2,22 +2,24 @@
 @use "../../styles/variables" as *;
 
 /* section 3 */
-.were-different {
+.about {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        margin-top: 5%;
+    }
 }
 
-.were-different-text {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
-    margin-top: 5%;
-}
 
 
-.were-different-text h2 {
+
+.about-text h2 {
     margin: 0;
     font-weight: lighter;
     font-size: 240%;
@@ -26,18 +28,18 @@
     align-self: flex-start;
 }
 
-.were-different-text__image-row {
+.about-text__image-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5%;
 }
 
-.were-different-text__image-row img {
+.about-text__image-row img {
     width: 10%;
 }
 
-.were-different__button {
+.about__button {
     padding: 1rem;
     width: 9rem;
     ;
@@ -47,8 +49,8 @@
     font-size: 90%;
 }
 
-.were-different-can {
-    background-image: url("../assets/images/coldbrewbackground.png");
+.about-can {
+    // background-image: url("../assets/images/coldbrewbackground.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 15rem;
