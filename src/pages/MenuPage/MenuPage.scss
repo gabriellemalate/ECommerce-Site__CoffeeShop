@@ -1,6 +1,14 @@
 @use '../../styles/variables' as *;
 @use '../../styles/mixins' as *;
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .menu-nav{
     background-color: #393939;
     color: #fff;

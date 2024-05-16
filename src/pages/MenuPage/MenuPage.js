@@ -9,18 +9,18 @@ function MenuPage() {
     return (
         <>
             <nav className="menu-nav" id="menu-nav">
-                <ul style="list-style-type: none" className="menu-nav__menu-nav-list">
+                <ul className="menu-nav__menu-nav-list">
                     <div className="vertical-line"></div>
                     <li className="menu-nav-list__menu-selection">
-                        <a href="#menu-nav" style="text-decoration: none"> HOT DRINKS </a>
+                        <a href="#menu-nav"> HOT DRINKS </a>
                     </li>
                     <div className="vertical-line"></div>
                     <li className="menu-nav-list__menu-selection">
-                        <a href="#coldDrinks" style="text-decoration: none"> COLD DRINKS </a>
+                        <a href="#coldDrinks"> COLD DRINKS </a>
                     </li>
                     <div className="vertical-line"></div>
                     <li className="menu-nav-list__menu-selection">
-                        <a href="#pastries" style="text-decoration: none"> PASTRIES </a>
+                        <a href="#pastries"> PASTRIES </a>
                     </li>
                 </ul>
             </nav>
