@@ -27,7 +27,7 @@ function LandingPage() {
                     </Link>
                 </article>
                 <div className="hero-items__hero-image">
-                    <img src={Hero} alt ="bag of coffeebeans" className="hero-items__hero-image-img"/>
+                    <img src={nitrobeans} alt ="bag of coffeebeans" className="hero-items__hero-image-img"/>
                 </div>
             </main>
             <ProductCarousel />
