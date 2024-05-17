@@ -26,20 +26,30 @@ a {
         &__head {
             border: 2px solid #5bacc3;
             width: 10rem;
-            height: 2.9rem;
+            height: 7rem;
             position: relative;
             text-align: center;
-            top: 6.5rem;
-            right: 0.5rem;
+            top: 5rem;
             padding-top: 2rem;
             padding-bottom: 2rem;
             font-size: 2rem;
             color: #ffffff;
+
+            &-box {
+                background-color: #393939;
+                position: absolute;
+                width: 10rem;
+                top: 10.5rem;
+                left: 27rem;
+                height: 7rem;
+                color: #393939;
+            }
         }
 
         &__container {
             width: 20rem;
             height: 20rem;
+            
         }
     }
 

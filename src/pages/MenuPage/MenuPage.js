@@ -12,10 +12,8 @@ function MenuPage() {
             <section className="menu-hero">
                 <center>
                     <div className="menu-hero__container">
-                        <div className="menu-hero__head">MENU</div>
-                        <center>
-                            <h2>.</h2>
-                        </center>
+                        <div className="menu-hero__head-box">.</div>
+                        <h2 className="menu-hero__head">MENU</h2>
                     </div>
                 </center>
             </section>
