@@ -20,15 +20,18 @@ function About() {
                         We grow and roast our own beans. Every bean, every cup, every step of
                         the way. We strive for excellence.
                     </p>
+                    <p>
+                        We have 1 cafe location for you to try our products first hand. You can see our menu below. We hope to see you soon.
+                    </p>
                     <div className="about-text__images">
                         <img src={plant} alt="seedling plants" className="about-text__images-img"/>
                         <img src={bean} alt="coffeebeans icons" className="about-text__images-img"/>
                         <img src={cup} alt="cup of hot drink icon" className="about-text__images-img"/>
                     </div>
-                    <a className="a__button" href="#back-to-top">
+                    <Link className="a__button" to="/menu">
                         <div id="button-border"></div>
                         <button className="about__button">LEARN MORE</button>
-                    </a>
+                    </Link>
                 </div>
 
                 <article className="about__box">
