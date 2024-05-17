@@ -20,6 +20,9 @@ function LandingPage() {
                         Our coffee is prepared from carefully roasted coffee beans, the seeds
                         of organic berries from exotic Coffee species.
                     </p>
+                    <p className="hero-items__detail">
+                        We provide coffee products to upstanding cafes nationwide.
+                    </p>
 
                     <Link to="/shop" className="hero-items__link">
                         <div id="button-border"></div>
