@@ -16,8 +16,8 @@ function LandingPage() {
                 <article className="hero-items">
                     <h2 className="hero-items__head">Nitro Coffee</h2>
                     <p className="hero-items__detail">
-                        Coffee is a brewed drink prepared from roasted coffee beans, the seeds
-                        of berries from certain Coffee species.
+                        Our coffee is prepared from carefully roasted coffee beans, the seeds
+                        of organic berries from exotic Coffee species.
                     </p>
 
                     <Link to="/shop" className="hero-items__link">
