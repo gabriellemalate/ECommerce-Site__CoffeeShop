@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Hero from "../../assets/images/coffeebeans-hero.png";
+import nitrobeans from "../../assets/images/nitrobeans.png"
 import ProductCarousel from "../../components/ProductCarousel/ProductCarousel";
 import About from "../../components/About/About";
 import Discounts from "../../components/Discounts/Discounts";
