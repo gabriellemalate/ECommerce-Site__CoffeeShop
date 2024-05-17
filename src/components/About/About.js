@@ -30,7 +30,7 @@ function About() {
                     </div>
                     <Link className="a__button" to="/menu">
                         <div id="button-border"></div>
-                        <button className="about__button">LEARN MORE</button>
+                        <button className="about__button">MENU</button>
                     </Link>
                 </div>
 
