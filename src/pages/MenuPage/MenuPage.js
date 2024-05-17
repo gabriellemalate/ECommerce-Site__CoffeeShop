@@ -9,10 +9,10 @@ function MenuPage() {
     return (
         <>
 
-            <section class="menu-hero">
+            <section className="menu-hero">
                 <center>
-                    <div class="menu-hero__container">
-                        <div class="menu-hero__head">MENU</div>
+                    <div className="menu-hero__container">
+                        <div className="menu-hero__head">MENU</div>
                         <center>
                             <h2>.</h2>
                         </center>
