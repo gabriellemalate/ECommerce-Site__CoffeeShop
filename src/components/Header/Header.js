@@ -11,7 +11,7 @@ function Header() {
             <nav className="header__logo">
                 <a className="header__logo-link" href="#back-to-top">
                     <img className="header__logo-img" src={Beans} alt="Logo CoffeeBeans" />
-                    <Link to="/" className="header__logo--head">nitro coffee</Link>
+                    <Link to="/" className="header__logo--head">nitro</Link>
                 </a>
 
                 <ul className="header-nav">
