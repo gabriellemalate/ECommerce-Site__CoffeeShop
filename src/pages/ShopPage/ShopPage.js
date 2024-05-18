@@ -12,15 +12,15 @@ function ShopPage() {
                 <ul className="shop-nav__list">
                     <div className="shop-line"></div>
                     <li className="shop-nav__list-item">
-                        <a href="#shop-nav"> HOT DRINKS </a>
+                        <a href="#shop-nav"> BEANS </a>
                     </li>
                     <div className="shop-line"></div>
                     <li className="shop-nav__list-item">
-                        <a href="#coldDrinks"> COLD DRINKS </a>
+                        <a href="#coldDrinks"> BREWS </a>
                     </li>
                     <div className="shop-line"></div>
                     <li className="shop-nav__list-item">
-                        <a href="#pastries"> PASTRIES </a>
+                        <a href="#pastries"> MISC </a>
                     </li>
                 </ul>
             </nav>
