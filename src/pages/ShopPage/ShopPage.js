@@ -26,44 +26,47 @@ function ShopPage() {
             </nav>
 
             <section className="shop">
-                <article className="shop__category shop__category--hot">
-                    <h2 className="shop-title">Hot Drinks</h2>
-                    <article className="hot__hot-items">
+                <article className="shop__category">
+                    <h2 className="shop-title">Beans</h2>
+                    <article className="shop__beans">
                         <article className="shop-item">
-                            <h3 className="shop-item__name"> In-House Brew</h3>
+                            <h3 className="shop-item__name">
+                                Beans 1</h3>
+                            <img />
                             <p className="shop-item__par">
-                                Our in-house medium roast is a classNameic balance between sweet
-                                vanilla, nutty hazelnut, and a smooth low acidity to bring
-                                everything together.
+
                             </p>
-                            <p className="shop-item__price">$2.99</p>
+                            <p className="shop-item__price">
+
+                            </p>
                         </article>
                         <article className="shop-item">
                             <h3 className="shop-item__name">
-                                Espresso</h3>
+                                Beans 2</h3>
+                            <img />
                             <p className="shop-item__par">
-                                A balance between bold and smooth, powerful and sweet, our
-                                signature espresso blend is a complex flavor profile. It features
-                                strong notes of semi-sweet chocolate and caramel, with mild
-                                acidity and a bright floral finish.
+
                             </p>
-                            <p className="shop-item__price">$4.99</p>
+                            <p className="shop-item__price">
+
+                            </p>
                         </article>
                     </article>
                 </article>
 
-                <article className="shop__category shop__category--cold" id="coldDrinks">
-                    <h2>Cold Drinks</h2>
-                    <article className="cold__coldItems">
+                <article className="shop__category" id="brews">
+                    <h2>Brews</h2>
+                    <article className="shop__brews">
                         <article className="shop-item">
                             <h3 className="shop-item__name">
                                 Cold Brew</h3>
+                                <img/>
                             <p className="shop-item__par">
-                                Our bright and delicious coffee blend, brewed over ice to give you
-                                a cold coffee freshness with all the flavor of our amazing
-                                in-house coffee.
+                                Bright and delicious coffee blend, brewed over ice.
                             </p>
-                            <p className="shop-item__price">$3.99</p>
+                            <p className="shop-item__price">
+
+                            </p>
                         </article>
                         <article className="shop-item">
                             <h3 className="shop-item__name">
