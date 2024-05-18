@@ -16,11 +16,11 @@ function ShopPage() {
                     </li>
                     <div className="shop-line"></div>
                     <li className="shop-nav__list-item">
-                        <a href="#coldDrinks"> BREWS </a>
+                        <a href="#brews"> BREWS </a>
                     </li>
                     <div className="shop-line"></div>
                     <li className="shop-nav__list-item">
-                        <a href="#pastries"> MISC </a>
+                        <a href="#misc"> MISC </a>
                     </li>
                 </ul>
             </nav>
