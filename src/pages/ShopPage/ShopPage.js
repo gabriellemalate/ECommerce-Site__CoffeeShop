@@ -80,27 +80,30 @@ function ShopPage() {
                     </article>
                 </article>
 
-                <article className="shop__category shop__category--food" id="pastries">
-                    <h2>Pastries</h2>
+                <article className="shop__category shop__category--food" id="misc">
+                    <h2>Misc</h2>
                     <article className="food__foodItems">
                         <article className="shop-item">
                             <h3 className="shop-item__name">
-                                Bacon Oatmeal Raisin Cookie</h3>
+                            
+                            </h3>
                             <p className="shop-item__par">
-                                An infused bacon, sugar and egg mixture is folded into a perfect
-                                blend of oats, flour, raisins and cinnamon to create a soft and
-                                chewy textured cookie.
+
                             </p>
-                            <p className="shop-item__price">$3.50</p>
+                            <p className="shop-item__price">
+
+                            </p>
                         </article>
                         <article className="shop-item">
                             <h3 className="shop-item__name">
-                                Blueberry, Lemon and Thyme Muffin</h3>
+
+                            </h3>
                             <p className="shop-item__par">
-                                Tart and sweet, this classNameic blueberry and lemon combination comes
-                                with an earthy twist.
+
                             </p>
-                            <p className="shop-item__price">$2.50</p>
+                            <p className="shop-item__price">
+
+                            </p>
                         </article>
                     </article>
                 </article>
